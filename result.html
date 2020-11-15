@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>サイトタイトル</title>
+    <link rel="stylesheet" href="css/destyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!----- ヘッダー ----->
+    <header>
+      <img class="img-sub" src="img/result.jpg" alt="トップ画像" />
+      <div class="menu">
+        <a href="index.html"> <img src="img/sky-company.png" alt="ロゴ" /></a>
+        <nav>
+          <ul>
+            <li>
+              <a href="result.html">ＲＥＳＵＬＴ<br /><span>実績</span></a>
+            </li>
+            <li>
+              <a href="about.html">ＡＢＯＵＴ<br /><span>会社概要</span></a>
+            </li>
+            <li>
+              <a href="contact.html"
+                >ＣＯＮＴＡＣＴ<br /><span>お問い合わせ</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!----- /ヘッダー ----->
+
+    <section class="result wrapper">
+      <h1 class="section-title">Result</h1>
+      <p class="section-title-ja">-実績-</p>
+
+<div class="result-section">
+
+      <img class="img-left animateleft" src="img/result1.jpg" alt="実績1" />
+<div class="result-comment">
+      <h2>実績1</h2>
+      <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<br>
+	この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+</div>
+</div>
+<div class="result-section">
+<div class="result-comment">
+	<h2>実績2</h2>
+      <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<br>
+	この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+</div>
+      <img class="img-right animateright" src="img/result2.jpg" alt="実績2" />
+
+</div>
+<div class="result-section">
+      <img class="img-left animateleft" src="img/result3.jpg" alt="実績3" />
+<div class="result-comment">
+	<h2>実績3</h2>
+      <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<br>
+	この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+</div>
+</div>
+</div>
+    </section>
+
+    <!----- フッター ----->
+    <footer>
+      <div class="wrapper">
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li><a href="result.html">実績</a></li>
+          <li><a href="about.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+        <small>© 2020 corpname inc.</small>
+      </div>
+    </footer>
+    <!----- /フッター ----->
+    <script>
+      ScrollReveal().reveal(".animateleft", {
+        distance: "200px",
+        origin: "left",
+        viewFactor: "0.8",
+      });
+      ScrollReveal().reveal(".animateright", {
+        distance: "200px",
+        origin: "right",
+        viewFactor: "0.8",
+      });
+    </script>
+  </body>
+</html>
